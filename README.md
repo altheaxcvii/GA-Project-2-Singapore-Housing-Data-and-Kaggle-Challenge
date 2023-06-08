@@ -33,7 +33,7 @@
 ### Data used:
 This Dataset is an exceptionally detailed with over 70 columns of different features relating to houses.
 
-For the purpose of the analysis, we are provided with the `train` and `test` datasets. The `train` dataset contains Singapore Housing sales prices and their relevant information from xxxx to xxxx. `train` datasets will be use model building purposes. Information found in the `test` datasets contains the same fields as those found in the `train` dataset, except for the sale prices. Sales prices will be predicted using the trained model
+For the purpose of the analysis, we are provided with the `train` and `test` datasets. The `train` dataset contains Singapore Housing sales prices and their relevant information from 2012 to 2021. `train` datasets will be use model building purposes. Information found in the `test` datasets contains the same fields as those found in the `train` dataset, except for the sale prices. Sales prices will be predicted using the trained model
 
 Information found in the `train` datasets includes information suchs as the sale prices, planning_area,,flat_model, hdb_age, full_flat_type, mrt_nearest_distance, hawker_nearest_distance and pri_sch_nearest_distance
 The full information could be found in the data dictionary below.
@@ -131,13 +131,13 @@ The full information could be found in the data dictionary below.
 ---
 
 ### Key takeaways from the project:
-1. The model that is the best at predicting sale price is the **Ridge Regression** model with a test $R^2$ score of 0.86
+1. The model that is the best at predicting sale price is the **Ridge Regression** model with a test $R^2$ score of 0.87
 
 2. Features such as flat_age ,floor Area, storey of unit, transaction_year  and distance_to_nearest_mrt are good predictors of sale prices.
 
 3. Houses that are located in  a 'downtown core', 'tanglin', 'outram', 'bukit timah', 'bishan' areas are likely to have high sale prices. 
 
-_Note: The Kaggle score (RMSE) for the production model was ~50,000
+Note: The Kaggle score (RMSE) for the production model was ~50,000
 
 ---
 
