@@ -131,7 +131,7 @@ The full information could be found in the data dictionary below.
 ---
 
 ### Key takeaways from the project:
-1. The model that is the best at predicting sale price is the **Ridge Regression** model with a test $R^2$ score of 0.87
+1. The model that is the best at predicting sale price is the **Linear Regression** model with a test $R^2$ score of 0.87
 
 2. Features such as flat_age ,floor Area, storey of unit, transaction_year  and distance_to_nearest_mrt are good predictors of sale prices.
 
